@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'tdd_week2'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'pl.pragmatists', name: 'JUnitParams', version: '1.0.4'
+    implementation 'org.hamcrest:hamcrest:2.2'
+
+    // https://mvnrepository.com/artifact/org.mockito/mockito-core
+    compile group: 'org.mockito', name: 'mockito-core', version: '2.23.4'
+
+
+}
